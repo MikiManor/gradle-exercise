@@ -29,4 +29,5 @@ task propfile() {
 
 dependencies {
 	compile 'org.springframework.boot:spring-boot-starter'
+	testCompile group: 'junit', name: 'junit', version: '4.+'
 }
