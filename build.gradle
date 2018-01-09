@@ -29,5 +29,5 @@ task propfile() {
 
 dependencies {
 	compile 'org.springframework.boot:spring-boot-starter'
-	testCompile 'io.spring.dependency-management'
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
